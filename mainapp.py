@@ -148,7 +148,7 @@ if Path(RESUME_FILE).exists():
     st.sidebar.download_button(
         label="📄 Download Resume",
         data=PDFbyte,
-        file_name=f"{data['name']} Resume.pdf",
+        file_name=f"{data['name']} resume.pdf",
         mime="application/pdf",
     )
 
