@@ -1,0 +1,146 @@
+name: Alex Daireck Banda
+title: IT & Cybersecurity Specialist  | Systems & Data Analyst | Web & Graphic Designer | Educator | B.Ed. in Computer Science
+email: alexdaireckbanda@gmail.com
+phone: +265 999 123 456
+location: Area 7, Lilongwe, P.O Box 31808, Lilongwe 3, Malawi.
+
+about: |
+  A dedicated and results-driven ICT professional with over three years of experience in Cybersecurity, 
+  ICT Infrastructure Support, and Systems administration. Currently serving as a Cybersecurity Officer, 
+  with a proven track record in securing systems, managing networks, and effectively responding to security 
+  incidents. Proficient in risk assessment, endpoint protection, and technical troubleshooting, with a strong 
+  commitment to professional ethics, data protection, and continuous improvement.
+
+employment:
+  - role: Cyber Security Officer
+    company: Malawi National Registration Bureau
+    years: 2023–Present
+    details: |
+      - Supported IT infrastructure, software deployment, and user support. Monitored security incidents, performed vulnerability assessments and recommended mitigations. Maintained IT asset inventory and updated hardware/software records. Managed endpoint protection, firewalls, antivirus, and user access controls. Conducted cyber hygiene and data protection training. Documented incidents, responses, and recovery actions and Collaborated with IT teams to secure systems and applications.
+  - role: ICT Officer (Systems Analyst)
+    company: Balaka District Council 
+    years: 2022- 2023 
+    details: |
+      - Maintained local government ICT systems and ensured network uptime. Supported users with hardware, software, and network issues. Implemented basic security controls and backup strategies. Coordinate with vendors and internal teams for asset delivery, tagging, and record updates. Maintaining ICT inventories including hardware, software, and communication. Assets and Supporting implementation of new technologies, infrastructure upgrades, and software deployments
+  - role: Volunteered as Chief Development and Design Officer
+    company: Company Africa Union Youth Club
+    years: 2020–2021
+    details: |
+      - Leading design and innovation across various domains: product, graphics, user experience, architecture, packaging, and industrial design. Overseeing creative direction for projects and organizational branding.
+  - role: Founder & CEO
+    company: MAS Art & General Supplies (Self-Employed)
+    years: 2017– Todate
+    details: |
+      - Developing business strategy, direction, and vision and Ensuring brand consistency across client materials and marketin. Designing and produced graphics, marketing, and e-marketing materials. Managing creative projects from brief to completion. Handling budgeting, forecasting, and key business decisions. Overseeing day-to-day operations and resource management
+  - role: Temporary Data Entry Clerk
+    company: Malawi National Examination Board (MANEB)
+    years: 2020-2020
+    details: |
+      - Receiving and organizing source documents for processing. Entering and verifying data in the examination database. Printing and crosschecking examination data for accuracy and Conducting data reconciliation and ensuring data security
+  - role: Temporary Data Entry Clerk
+    company: Telekom Networks Malawi (TNM)
+    years: 2023-2023
+    details: |
+      - Keying, cleaning, filtering, and consolidating field-collected data into the system with accuracy and efficiency. Ensuring data quality by identifying and correcting inconsistencies before submission and Maintaining organized records to support reporting and analysis.
+  - role: Computer Studies and Mathematics Teacher
+    company: Andiamo Private Secondary School
+    years: 2023-2023
+    details: |
+      - Delivered curriculum-aligned lessons in Computer Studies and Mathematics. Created and distributed teaching materials, including tests and assignments. Maintained a safe, engaging, and interactive classroom environment. Provided individualized support to accommodate diverse learning needs. Assessed student performance and gave timely, constructive feedback.
+
+skills:
+  - name: Cybersecurity & Risk Management
+    level: 90
+  - name: Data Analysis (Excel, SQL, Python)
+    level: 85
+  - name: ICT Systems Expertise
+    level: 80
+  - name: Web & Graphic Design
+    level: 75
+
+# projects:
+#   - title: Secure Registration System
+#     description: Designed and deployed a security monitoring system to protect sensitive citizen data.
+#   - title: Portfolio Website
+#     description: Built a professional web portfolio with Streamlit and Python.
+
+education:
+  - degree: BEd in Computer Science
+    school: University of Malawi
+    years: 2018–2022
+  - degree: Diploma in Computer Science
+    school: Lilongwe Technical College
+    years: 2016–2018
+  - degree: Malawi School Certificate of Education (MSCE)
+    school: Nsaru Secondary School
+    years: 2012–2016
+
+
+achievements:
+  - name: Cybersecurity Unit Implementation at National Registration Bureau (NRB)
+    description: Established the Cybersecurity Unit at the National Registration Bureau (NRB), enhancing national data protection and incident response capabilities.
+  - name: Policy Enforcement & Strategic Integration
+    description: Implemented robust cybersecurity policies and successfully integrated the Data Protection Authority framework into the National Registration Bureau, ensuring enhanced compliance with national data protection standards.
+  - name: Concise and Professional
+    description: Led the integration of the National Registration Bureau (NRB) systems with organizational processes, ensuring full compliance with the Data Protection Act.
+  - name: Security Assessment Success
+    description: Reduced system vulnerabilities by 30% via comprehensive assessments.
+  - name: Enhanced Response Efficiency
+    description: Increased incident response efficiency by 35% through streamlined processes.
+  - name: Staff Training Achievement
+    description: Trained a good number staff members on cybersecurity, reducing incidents by 40%.
+  - name: Business Growth Milestone
+    description: Founded business achieving 20% annual revenue growth since inception.
+
+
+certifications:
+  - name: Google Cybersecurity Professional Certificate
+  - name: Cybersecurity Essentials Certificate
+  - name: Introduction to Information Technology Infrastructure Library (ITIL) ® V4
+  - name: Introduction to Cyber Security
+  - name: Data Analysis
+  - name: DHIS2 
+  - name: Google Digital Skills Certificate 
+  - name: Small Business Success Strategies 
+
+trainings:
+  - name: Data Protection Workshop with
+    year: 2025
+  - name: Cyber Security Bootcamp Graduate Organized by Smart Africa, Scratch & Script, and Smart Africa Digital Academy
+    year: 2025
+  - name: Cybersecurity Intensive Training with Malawi CERT 
+    year: 2024
+  - name: Google Digital Skills Training with Centrum Learning Africa
+    year: 2017
+
+strengths:
+  - Problem-solving mindset
+  - Data Security & Protection
+  - Strong communication skills
+  - Team leadership & collaboration
+  - Quick learner and adaptable
+
+awards:
+  - name: Top Student in Cybersecurity Bootcamp
+    year: 2025
+
+find_me_online:
+  - platform: LinkedIn
+    url: https://linkedin.com/in/alexdaireck
+  - platform: GitHub
+    url: https://github.com/alexdaireck
+  - platform: Twitter
+    url: https://twitter.com/alexdaireck
+  - platform: Personal Website
+    url: https://alexdaireck.com
+  - platform: Facebook
+    url: https://alexdaireck.com
+  - platform: Instagram
+    url: https://alexdaireck.com
+  - url: https://twitter.com/alexdaireck
+    platform: TikTok
+  - platform: YouTube
+    url: https://alexdaireck.com
+
+resume: resume.pdf
+profile_image: profile_picture.jpg
