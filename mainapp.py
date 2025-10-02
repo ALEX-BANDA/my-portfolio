@@ -54,7 +54,79 @@ st.markdown("""
         margin: 4px 0 !important;
         border-top: 1px solid #ddd;
     }
+    
+            /* Make text and cards responsive */
+    @media (max-width: 768px) {
+        .section-header {
+            font-size: 16px !important;
+            padding: 6px 10px !important;
+        }
+        .card {
+            padding: 12px !important;
+            margin-bottom: 15px !important;
+        }
+        p, li {
+            font-size: 14px !important;
+            line-height: 1.3em !important;
+        }
+        h3 {
+            font-size: 16px !important;
+        }
+    }
 
+    /* Ensure no horizontal scroll */
+    .block-container {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    /* Sidebar adjustment for mobile */
+    [data-testid="stSidebar"] {
+        width: 220px !important;
+        min-width: 220px !important;
+    }
+            
+        /* Social icons container */
+    .social-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    /* Each item (logo + text) */
+    .social-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 15px;
+        text-decoration: none;
+        color: #008080;
+        font-weight: 500;
+    }
+
+    /* Logo size */
+    .social-item img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 600px) {
+        .social-links {
+            flex-direction: column;   /* keep column layout */
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .social-item {
+            font-size: 14px !important;
+        }
+        .social-item img {
+            width: 20px;
+            height: 20px;
+        }
+    }
     </style>
 """, unsafe_allow_html=True)
 
@@ -146,7 +218,6 @@ if "find_me_online" in data:
         "LinkedIn": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
         "GitHub": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
         "Twitter": "https://cdn-icons-png.flaticon.com/512/733/733579.png",
-        "Personal Website": "https://cdn-icons-png.flaticon.com/512/841/841364.png",
         "Facebook": "https://cdn-icons-png.flaticon.com/512/733/733547.png",
         "Instagram": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
          "TikTok": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
