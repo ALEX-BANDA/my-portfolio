@@ -141,16 +141,21 @@ st.sidebar.markdown(f"📞 {data['phone']}")
 st.sidebar.markdown(f"📍 {data['location']}")
 
 
-# Resume download
-if Path(RESUME_FILE).exists():
-    with open(RESUME_FILE, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
-    st.sidebar.download_button(
-        label="📄 Download Resume",
-        data=PDFbyte,
-        file_name=f"{data['name']} resume.pdf",
-        mime="application/pdf",
-    )
+# ===== RESUME DOWNLOAD =====
+try:
+    if Path(RESUME_FILE).exists():
+        with open(RESUME_FILE, "rb") as pdf_file:
+            PDFbyte = pdf_file.read()
+        st.sidebar.download_button(
+            label="📄 Download Resume",
+            data=PDFbyte,
+            file_name=f"{data['name']} Resume.pdf",
+            mime="application/pdf",
+        )
+    else:
+        st.sidebar.button("📄 Resume not available", disabled=True)
+except Exception as e:
+    st.sidebar.button("📄 Resume not available", disabled=True)
 
 # ===== ABOUT =====
 st.markdown("<div class='section-header'>👋 About Me</div>", unsafe_allow_html=True)
